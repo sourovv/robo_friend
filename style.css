@@ -1,0 +1,99 @@
+body {
+    background-color: #307d0dc9;
+}
+h1 {
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+
+.robot {
+    display: flex;
+    justify-content: center;
+}
+
+/* head part */
+.head {
+    width: 200px;
+    height: 150px;
+    border-radius: 150px 150px 0px 0px;
+    margin: 0px auto;
+}
+
+/* Head hover */
+.head:hover {
+    width: 300px;
+    transition:1s ease-out;
+}
+
+.eyes {
+    display: flex;
+}
+
+.left_eye, .right_eye {
+    width: 18px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.left_eye {
+    position: relative;
+    top: 110px;
+    left: 22px;
+}
+
+.right_eye {
+    position: relative;
+    top: 110px;
+    left: 140px;
+}
+
+/* Upper body part */
+.upper_body {
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.left_hand, .right_hand {
+    width: 40px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.belly {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+/* Lower body part */
+.legs {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.left_leg, .right_leg {
+    width: 40px;
+    height: 120px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.right_leg {
+    margin-left:30px;
+}
+
+/* left_leg hover */
+.left_leg:hover {
+    transform: rotate(8deg);
+}
+
+/* Color part */
+.color {
+    background-color: #0ABDE3;
+}
