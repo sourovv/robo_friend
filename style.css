@@ -1,8 +1,9 @@
 body {
-    background-color: #307d0dc9;
+    background-color: #DD12B5;
 }
 h1 {
     text-align: center;
+    color: #ffffff;
     font-family: 'Chilanka', cursive;
 }
 
@@ -95,5 +96,5 @@ h1 {
 
 /* Color part */
 .color {
-    background-color: #0ABDE3;
+    background-color: #2ed20b;
 }
